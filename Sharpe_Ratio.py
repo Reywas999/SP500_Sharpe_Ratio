@@ -47,7 +47,7 @@ def normalize_data(df):
 
 
 def work():
-    '''Returns ONLY Adjusted Closing Historical values for input tickers and Groups them into a single table'''
+    '''Pulls and cleans data for the input list ticker symbols using yahoo finance adjusted close data'''
     Tickers = stock_List
     
     if 'SPY' not in Tickers: #Uses SPY as a reference, this is unnecessary
